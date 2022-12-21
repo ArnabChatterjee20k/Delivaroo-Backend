@@ -59,7 +59,7 @@ export default defineType({
       name:'dishes',
       title:"Dishes",
       type:"array",
-      of:[{type:"category",to:[{type:"dish"}]}]// since we are using array so we are making an array of references to dish
+      of:[{type:"reference",to:[{type:"dish"}]}]// since we are using array so we are making an array of references to dish
     })
   ],
 })
