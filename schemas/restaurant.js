@@ -49,7 +49,7 @@ export default defineType({
         Rule.required().min(1).max(5).error('Please enter a number between 1 to 5'),
     }),
     defineField({
-      name:'type',
+      name:'Category',
       title:"Category",
       validation:(Rule)=>Rule.required(),
       type:"reference",
